@@ -120,7 +120,7 @@ export default function LuxuryWeddingWebsite() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-6 py-6 flex justify-between">
-          <div className="text-3xl tracking-wider">S & A</div>
+          <div className="text-3xl tracking-wider">R & A</div>
           <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
             {menuOpen ? <X /> : <Menu />}
           </button>
@@ -141,7 +141,7 @@ export default function LuxuryWeddingWebsite() {
         <div className="relative z-10 text-white">
           <Heart className="hero-heart mx-auto mb-6 text-[#D4BC9F]" size={40} />
           <h1 className="hero-title text-6xl md:text-8xl mb-6">
-            Sophia & Alexander
+            Rutuja & Abhijeet
           </h1>
           <div className="hero-divider w-24 h-px bg-[#D4BC9F] mx-auto mb-6" />
           <p className="hero-subtitle uppercase tracking-widest mb-8">

@@ -5,32 +5,31 @@ export default function HomePage() {
     <>
       {/* Navbar */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
-  <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-    <div className="flex items-center gap-2 text-red-600 font-semibold">
-      ❤️ <span className="font-playfair">Shubhavivah</span>
-    </div>
+        <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+          <div className="flex items-center gap-2 text-red-600 font-semibold">
+            ❤️ <span className="font-playfair">Shubhavivah</span>
+          </div>
 
-    <nav className="hidden md:flex gap-8 text-sm">
-      <a href="#venue" className="hover:text-red-500">
-        Venue
-      </a>
-      <a href="#schedule" className="hover:text-red-500">
-        Schedule
-      </a>
-      <a href="#rsvp" className="hover:text-red-500">
-        RSVP
-      </a>
-    </nav>
+          <nav className="hidden md:flex gap-8 text-sm">
+            <a href="#venue" className="hover:text-red-500">
+              Venue
+            </a>
+            <a href="#schedule" className="hover:text-red-500">
+              Schedule
+            </a>
+            <a href="#rsvp" className="hover:text-red-500">
+              RSVP
+            </a>
+          </nav>
 
-    <button className="bg-red-500 text-white px-5 py-2 rounded-full text-sm shadow hover:bg-red-600 transition">
-      RSVP
-    </button>
-  </div>
-</header>
-
+          <button className="bg-red-500 text-white px-5 py-2 rounded-full text-sm shadow hover:bg-red-600 transition">
+            RSVP
+          </button>
+        </div>
+      </header>
 
       {/* Hero Section */}
-      <section className="text-center px-6 mt-30">
+      <section className="text-center px-6 mt-30 bg-white">
         <p className="text-red-600 tracking-wide font-medium">
           || श्री कुलस्वामिनी प्रसन्न ||
         </p>

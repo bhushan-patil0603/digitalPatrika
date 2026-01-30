@@ -61,7 +61,7 @@ export default function HomePage() {
       </section>
 
       {/* Couple Image */}
-      <section className="mt-20 flex justify-center px-6">
+      <section className="mt-20 flex justify-center px-6 bg-white">
         <div className="relative">
           <div className="rounded-t-full overflow-hidden border-8 border-white shadow-2xl max-w-sm">
             <Image
@@ -89,7 +89,7 @@ export default function HomePage() {
       </section>
 
       {/* Invitation Section */}
-      <section className="text-center px-6 mt-24">
+      <section className="text-center px-6 mt-24 bg-white">
         <div className="w-24 h-4 mx-auto bg-red-200 rounded-full mb-6"></div>
 
         <h2 className="text-2xl font-bold text-red-600">आग्रहाचे निमंत्रण!</h2>
@@ -105,7 +105,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="mt-24 py-8 text-center text-xs text-gray-400">
+      <footer className="mt-24 py-8 text-center text-xs bg-white400">
         <div className="flex justify-center gap-6 mb-4 text-red-400">
           🏛️ ☀️ 💖
         </div>

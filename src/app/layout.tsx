@@ -3,6 +3,7 @@ import "@/styles/root-layout.css";
 import { fonts } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/providers/theme";
+import { Noto_Sans_Devanagari } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "Next Essential | Elementary",
@@ -52,6 +53,10 @@ export const metadata: Metadata = {
   },
 };
 
+const marathiFont = Noto_Sans_Devanagari({
+  subsets: ["devanagari"],
+  weight: ["400", "500", "700"],
+});
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -67,7 +72,7 @@ export default function RootLayout({
         "font-geistSans"
       )}
     >
-      <body>
+      <body className={marathiFont.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
